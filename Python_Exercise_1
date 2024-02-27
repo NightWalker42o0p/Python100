@@ -1,0 +1,6 @@
+print("Hello")
+print("Welcome To Automatic Band Maker")
+city=input("What is the name of the city you grew up in? ")
+college=input("Give me the name of your collge football team? ")
+print("The Name Can be...")
+print(city+" "+college)
