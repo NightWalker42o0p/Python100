@@ -1,0 +1,44 @@
+print("Welcome To Love Island")
+print("Your Mission Is To Find Your Love")
+print("######--\\\_____||____//--######")
+a=input("You're at a cross road. Where do you want to go? Type 'left' or 'right'")
+if(a=="left"):
+  print("When You Choose Left it means you are not on the right path")
+  print("Game Over")
+else:
+  print("Great Choice!!!")
+  print("You have Cleared First Level. There is an island in the middle of the lake.")
+  print("        *          ")
+  print("        |          ")
+  print("~~~~~~~~~~~~~~~~~~~~~")
+  print("~~~~~~~~~~~~~~~~~~~~~")
+  print("How Would You Like To Cross The Lake?")
+  b=input("Type 'swim' or 'wait'")
+  if(b=="Wait"):
+    print("Its was very foolish of you to wait;You should not have waited for being loved")
+    print("Game Over!!!")
+  else:
+    print("There are 3 Boxes in front of you")
+    print("Type 'Box1' or 'Box2' or 'Box3' or 'return'; choosing any box means you have to be always with that item")
+    
+    c=input("Choose Wisely")
+    
+    if(c=='Box1'):
+      print("You Chose The Wrong Box, It Contains a Venomous Snake; Ouch!!! it bit you !!! Rest in Peace")
+      print("Game Over")
+    elif(c=='Box2'):
+      print("You are hookep up with your Ex!!! All the Best")
+      print("My Advice would be to be with your ex for a long time")
+    elif(c=='Box3'):
+      print("You Chose The Wrong Box, Its Empty; Ugh!!! Must Be Frustating!!!; Better Luck Next Time")
+      print("You want this box?")
+      d=input("Type 'yes' or 'no'")
+      if(d=='yes'):
+        print("You are a very normal person, You came this far and you are still not getting your love ; Still Not Frustated ; You are a true a gentle man; Look there !!!!!!!") 
+               
+        print("Congratulations You got your Love")
+      else:
+        print("Feeling Bad For you")
+        Print("Better Luck Next Time")
+    else:
+      print("You are a Coward; You are not even trying to find your love")
